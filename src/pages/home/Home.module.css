@@ -1,0 +1,75 @@
+
+.home {
+    width: 90%;
+    min-height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home img {
+    height: 500px;
+}
+
+.home p {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+.home span {
+    color: blue;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.btn_red {
+    background-color: blue;
+    color: var(--white);
+}
+
+.btn_red:hover {
+    background-color: var(--primary);
+    transition: all .5s;
+}
+
+/* aula 11 extra 01 */
+
+@media (max-width: 1200px) {
+    .home {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .home p {
+        font-size: 1.5rem;
+    }
+
+    .home img {
+        max-width: 100%;
+        height: auto;
+        padding-inline: 40px;
+    }
+}
+

@@ -1,0 +1,32 @@
+
+.page404{
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo2 {
+    padding: 34px;
+    text-align: center;
+}
+
+.textos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texto_grande {
+    font-size: 300px;
+    color: var(--red);
+    font-weight: bold;
+}
+
+.texto_vermelho {
+    font-size: 25px;
+    color: var(--red);
+    font-weight: bold;
+}
